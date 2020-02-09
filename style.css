@@ -1,0 +1,133 @@
+body{
+	font-family: Arial, Helvetica;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#FFEFD5;
+}
+
+ 
+ /* Global */
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.button_1{
+	height:40px;
+	background:#2F4F4F;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ffffff;
+}
+
+.dark{
+	padding:15px;
+	background:#2F4F4F;
+	color:#FFEFD5;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+
+/* Header */
+header{
+	background:#2F4F4F;
+	color: #FFEFD5;
+	padding:top:30px;
+	min-height:70px;
+	border-bottom:#9E6C3A 3px solid;
+}
+
+header a{
+	color: #FFEFD5;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+header li{
+	float:left;
+	display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+	margin-top:10px;
+}
+
+
+/* Showcase */
+#showcase{
+	min-height:700px;
+	background:url('../images/grace.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+	color:#FFEFD5;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+}
+
+#showcase p{
+	font-size:20px;
+	color:#000000;
+}
+
+/* share */
+#share{
+	padding:15px;
+	color:#2F4F4F;
+	background:#FFEFD5;
+	font-weight:bolder;
+}
+
+#share input[type="email"]{
+	padding:4px;
+	height:25px;
+	width:250px;
+}
+
+/* sidebar */
+aside#sidebar{
+	float:right;
+	width:25%;
+	margin-top:10px;
+}
+
+/* main-col */
+article#main-col{
+	float:left;
+	width:65%;
+}
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:#2F4F4F;
+	text-align: center;
+}
+
+
+
